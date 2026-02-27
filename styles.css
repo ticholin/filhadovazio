@@ -5,6 +5,11 @@
     --text-color: #e0e0e0;
     --theme-link-color: #c9aa71;
     --plasma-color: #BD1EBD;
+    --as-color: #fffca6;
+    --md-color: #00B0F0;
+    --ap-color: #7366FF;
+    --life-color: #1f995C;
+    --ad-color: #ff8C34;
 }
 
 * {
@@ -28,7 +33,7 @@ body {
 }
 
 header {
-    padding: 10px 0;
+    padding: 30px 0;
     border-bottom: 1px solid var(--void-magenta);
     background: rgba(0, 0, 0, 0.3);
 }
@@ -95,6 +100,8 @@ h2 {
     background: rgba(255, 255, 255, 0.03);
     padding: 25px;
     border-radius: 10px;
+    text-align: justify;
+    color: #f0e6d2;
 }
 
 .lista-habilidades {
@@ -118,6 +125,18 @@ h2 {
     margin-right: 20px;
     border: 2px solid var(--void-magenta);
     border-radius: 4px;
+}
+
+.skill-imgP {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.skill-img{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .skill-text h3 {
@@ -169,4 +188,32 @@ footer {
     background: #000;
     font-size: 0.8rem;
     border-top: 1px solid var(--void-magenta);
+}
+
+.tema {
+    color: var(--theme-link-color);
+}
+
+.plasma {
+    color: var(--plasma-color);
+}
+
+.md {
+    color: var(--md-color);
+}
+
+.ap {
+    color: var(--ap-color);
+}
+
+.vd {
+    color: var(--life-color);
+}
+
+.ad {
+    color: var(--ad-color);
+}
+
+.atkspd {
+    color: var(--as-color);
 }
